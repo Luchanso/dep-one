@@ -10,3 +10,21 @@ patch:
         patched: '2017-05-30T06:54:18.841Z'
     - webpack-dev-server > compression > debug > ms:
         patched: '2017-05-30T06:54:18.841Z'
+patch:
+  'npm:ms:20170412':
+    - eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic > hmac-drbg > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic > hmac-drbg > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic > hmac-drbg > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
+    - webpack > node-libs-browser > crypto-browserify > create-ecdh > elliptic > hmac-drbg > hash.js > mocha > debug > ms:
+        patched: '2017-06-20T06:54:20.976Z'
