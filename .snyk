@@ -1,12 +1,15 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.7.1
-# ignores vulnerabilities until expiry date; change duration by modifying expiry date
-ignore:
-  'npm:shelljs:20140723':
-    - eslint > shelljs:
-        reason: None given
-        expires: '2017-09-29T09:58:10.014Z'
+ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - socket.io-client > debug > ms:
+        patched: '2017-05-30T06:54:18.841Z'
+    - eslint-plugin-import > eslint-module-utils > debug > ms:
+        patched: '2017-05-30T06:54:18.841Z'
+    - webpack-dev-server > compression > debug > ms:
+        patched: '2017-05-30T06:54:18.841Z'
 patch:
   'npm:ms:20170412':
     - eslint-import-resolver-webpack > node-libs-browser > crypto-browserify > browserify-sign > elliptic > hash.js > mocha > debug > ms:
